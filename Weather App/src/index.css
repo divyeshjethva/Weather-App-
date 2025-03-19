@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  overflow-x: hidden;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 500px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  /* position: relative;
+  top: 18vh;
+  left: 15vw; */
+}
+.weather-container {
+  width: 70%;
+  display: flex;
+}
+.part-one {
+  background-image: url("city.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  width: 65%;
+  color: #fff;
+  position: relative;
+}
+.date-time {
+  padding: 10px 30px;
+  display: flex;
+  gap: 12vw;
+  position: absolute;
+  bottom: 10px;
+}
+.time {
+  font-weight: 700;
+  font-size: 4vw;
+}
+.cel {
+  font-size: 6vw;
+}
+/* part two */
+
+.part-two {
+  background-color: rgba(22, 22, 22, 0.925);
+  height: 450px;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.weather-main {
+  font-weight: 700;
+  color: #fff;
+  padding: 4px 1px;
+  font-size: larger;
+}
+hr {
+  width: 80%;
+}
+.search-bar {
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 2px solid rgb(63, 63, 63);
+}
+.search-bar input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+}
+.search-bar img {
+  width: 20px;
+  cursor: pointer;
+}
+.weather-location {
+  color: #fff;
+  padding: 20px;
+  font-weight: 600;
+}
+.weather-details {
+  color: #fff;
+  font-size: 14px;
+  margin: 5px 0;
+}
+.details-oo {
+  padding: 5px 0;
+  display: flex;
+}
+.padding-left {
+  padding-right: 60px;
+}
+.weather-details hr {
+  border: 1px solid rgb(43, 43, 43);
+  width: 100%;
+}
+
+.place-container {
+  margin: 20px 18px;
+  color: #fff;
+}
